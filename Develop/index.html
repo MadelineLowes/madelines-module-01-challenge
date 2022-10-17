@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-
+<!-- structure adjusted to add clarity to the code -->
 <html lang="en-us">
 
     <head>
 
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="./assets/css/style.css">
-        <!-- use a more descriptive title -->
+        <!-- used company's name for more detail -->
         <title>Horiseon</title>
 
     </head>
 
     <body>
 
+        <!-- the banner role indicates that there's a header at the top of the page and is helpful for assistive technologies -->
         <div role="banner" class="header">
-        <!-- is this class necessary? can i define class, within the same div? i think so -->
             <header>
+                <!-- alt provided to be easier to comprehend assistive technology flow better -->
                 <h1 alt="Horiseon">Hori<span class="seo">seo</span>n</h1>
-                <!-- in HTML will likely have to create div instead of section, in CSS put in position absolute in the top right corner with a clear? or different colour background -->
                 <div class="buttons">
+                    <!-- a button element is more meaninful to assistive technology than list as it indicates if you click on it, an action will happen, which is typical of elements in the header -->
                     <button><a href="#search-engine-optimization">Search Engine Optimization</a></button>
                     <button><a href="#online-reputation-management">Online Reputation Management</a></button>
                     <button><a href="#social-media-marketing">Social Media Marketing</a></button>
@@ -31,19 +32,23 @@
         <!-- <main>This defines content specific to one particular web page; where as other elements like header/footer have similar elements across multiple pages</main> -->
             <div class="content">
 
-                <div class="search-engine-optimization">
+                <div id="search-enging-optimization" class="search-engine-optimization">
+                    <!-- image for decorative purposes so alternative text left blank and aria-hidden was added so that the image is ignored by assistive technology -->
                     <img src="./assets/images/search-engine-optimization.jpg" aria-hidden="true" alt="" class="float-left"/>
                     <h2>Search Engine Optimization</h2>
+                    <!-- added abbreviation element to make more readable -->
                     <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization <abbr>(SEO)</abbr> allows you to increase your visibility and find the right customers for your business.</p>
                 </div>
 
                 <div id="online-reputation-management" class="online-reputation-management">
+                    <!-- image for decorative purposes so alternative text left blank and aria-hidden was added so that the image is ignored by assistive technology -->
                     <img src="./assets/images/online-reputation-management.jpg" aria-hidden="true" alt="" class="float-right"/>
                     <h2>Online Reputation Management</h2>
                     <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.</p>
                 </div>
 
-                <div id="social-media-marketing" alt="" class="social-media-marketing">
+                <div id="social-media-marketing" class="social-media-marketing">
+                    <!-- image for decorative purposes so alternative text left blank and aria-hidden was added so that the image is ignored by assistive technology -->
                     <img src="./assets/images/social-media-marketing.jpg" aria-hidden="true" alt="" class="float-left"/>
                     <h2>Social Media Marketing</h2>
                     <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
@@ -52,34 +57,44 @@
             </div>
 
             <div class="benefits">
+
                 <div class="benefit-lead">
                     <h3>Lead Generation</h3>
+                    <!-- image for decorative purposes so alternative text left blank and aria-hidden was added so that the image is ignored by assistive technology -->
                     <img src="./assets/images/lead-generation.png" aria-hidden="true" alt=""/>
                     <p>Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
                 </div>
 
                 <div class="benefit-brand">
                     <h3>Brand Awareness</h3>
+                    <!-- image for decorative purposes so alternative text left blank and aria-hidden was added so that the image is ignored by assistive technology -->
                     <img src="./assets/images/brand-awareness.png" aria-hidden="true" alt=""/>
                     <p>Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.</p>
                 </div>
 
                 <div class="benefit-cost">
                     <h3>Cost Management</h3>
+                    <!-- image for decorative purposes so alternative text left blank and aria-hidden was added so that the image is ignored by assistive technology -->
                     <img src="./assets/images/cost-management.png" aria-hidden="true" alt=""/>
                     <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
                 </div>
 
             </div>
 
-        <footer>            
 
-            <div role="contentinfo" class="footer">
-                <h4>Made with ❤️️ <alt="love"> by Horiseon</h4>
-                <!-- in CSS make this size/font bigger^, I used h4 to follow the proper order -->
+        <!-- the contentinfo role indicates that there's a footer at the bottom of the page and is helpful for assistive technologies -->
+        <div role="contentinfo" class="footer">
+            <!--  -->
+            <footer>            
+
+                <h4>Made with ❤️️ by Horiseon</h4>
+                <!-- used h4 to follow the proper order -->
                 <p> &copy; 2019 Horiseon Social Solution Services, Inc.</p>
-            </div>
+
+            </footer>
+
+        </div>
             
-        </footer>
     </body>
+
 </html>
