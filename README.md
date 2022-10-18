@@ -2,7 +2,7 @@
 
 ## Description
 
-This webpage is my week 1 challenge for boot camp. I was give the starter code and had to make modifications to make the webpage meet accessibility standards. I learned how to use semantic elements to make this webpage meet accessibility standards. This makes it available to all audiences, including those who use assistive technologies, without impacting how the site looks. 
+This webpage is my week 1 challenge for boot camp. I was given the starter code and had to make modifications to make the webpage meet accessibility standards. I learned how to use semantic elements to make this webpage meet accessibility standards. This makes it available to all audiences, including those who use assistive technologies, without impacting how the site looks.
 
 ## Installation
 
