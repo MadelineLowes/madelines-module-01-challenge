@@ -6,16 +6,12 @@ provice a short description explain the what, why, and how of your project. Use 
 
 - what was your motivation?
 - what did you build this project?
-- what problem does it solve? accessible to a larger audience and it doesn't exclude anyone from being able to view the site with whatever aids they use to view the site.
-- what did you learn?
-
-## Table of Contents (optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+- what problem does it solve?
+I learned how to use semantic elements to make this webpage meet accessibility standards. This makes it available to audiences who use assistive technology, without impacting how the site looked initially.
 
 ## Installation
 
-what are the steps required to install your project? Provice a step-by-step description of how to get the deveopment environment running.
+N/A
 
 ## Usage
 
